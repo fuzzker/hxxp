@@ -8,10 +8,10 @@ options for this addon.
 
 Examples:
 
-    hxxp://foo.com/foo.jpg -> 
-      url: http://foo.com/foo.jpg
-      referer: http://foo.com/foo.jpg
+    hxxp://example.com/foo.jpg -> 
+      url: http://example.com/foo.jpg
+      referer: http://example.com/foo.jpg
 
-    hxxp://foo.com/foo.jpg;ref://bar.com ->
-      url: http://foo.com/foo.jpg
-      referer: http://bar.com
+    hxxp://example.com/foo.jpg;ref://example.org ->
+      url: http://example.com/foo.jpg
+      referer: http://example.org
